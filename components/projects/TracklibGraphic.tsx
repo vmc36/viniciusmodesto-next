@@ -1,44 +1,26 @@
-import Halo from "components/Halo";
-import { useScroll, useTransform, motion, MotionValue } from "framer-motion";
-import { useTheme } from "next-themes";
-import Image from "next/image";
-import list from "public/projects/tracklib/list.png";
-import { useRef } from "react";
+import Halo from 'components/Halo';
+import { useScroll, useTransform, motion } from 'framer-motion';
+import { useTheme } from 'next-themes';
+import Image from 'next/image';
+import list from 'public/projects/tracklib/list.png';
+import { useRef } from 'react';
 
 export default function TracklibGraphic() {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["start end", "end start"],
+    offset: ['start end', 'end start'],
   });
   const y = useTransform(scrollYProgress, [0, 1], [70, 0]);
   const { resolvedTheme } = useTheme();
 
   return (
-    <div
-      className="relative overflow-hidden bg-black h-[283px] rounded-xl"
-      ref={ref}
-    >
-      <Halo strength={resolvedTheme === "light" ? 15 : 8}>
-        <motion.div
-          className="w-[350px] absolute -right-20 z-10 bottom-0"
-          style={{ y }}
-        >
-          <Image
-            src={list}
-            alt="Tracklib listing"
-            width={350}
-            height={268}
-            sizes="350px"
-          />
+    <div className="relative overflow-hidden bg-black h-[283px] rounded-xl" ref={ref}>
+      <Halo strength={resolvedTheme === 'light' ? 15 : 8}>
+        <motion.div className="w-[350px] absolute -right-20 z-10 bottom-0" style={{ y }}>
+          <Image src={list} alt="Tracklib listing" width={350} height={268} sizes="350px" />
         </motion.div>
-        <svg
-          width="158"
-          height="19"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="absolute z-10 hidden -translate-y-1/2 top-1/2 left-12 sm:block"
-        >
+        <svg width="158" height="19" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute z-10 hidden -translate-y-1/2 top-1/2 left-12 sm:block">
           <path
             fillRule="evenodd"
             clipRule="evenodd"

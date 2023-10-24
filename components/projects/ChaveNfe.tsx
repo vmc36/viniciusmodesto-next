@@ -4,7 +4,7 @@ import { useTheme } from 'next-themes';
 import Image from 'next/image';
 import { useRef } from 'react';
 
-export default function NaTrave() {
+export default function ChaveNfe() {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -17,7 +17,7 @@ export default function NaTrave() {
     <div className="h-[283px] bg-[#001413] rounded-xl relative overflow-hidden" ref={ref}>
       <Halo strength={resolvedTheme === 'light' ? 10 : 4}>
         <motion.div className="w-[257px] absolute right-4 z-10 -bottom-10" style={{ y }}></motion.div>
-        <Image width={504} height={282} src="/projects/natrave/home.jpg" alt="" className="rounded-[26px]" />
+        <Image width={504} height={282} src="/projects/chavenfe/home.jpg" alt="" className="rounded-[26px]" />
       </Halo>
     </div>
   );

@@ -5,7 +5,6 @@ import Link from 'components/Link';
 import Section from 'components/Section';
 import Workplaces from 'components/Workplaces';
 import Gallery from 'components/Gallery';
-import { ActivityType } from 'components/Activity';
 
 import bitrefillLogo from 'public/projects/bitrefill-logo.png';
 import tracklibLogo from 'public/projects/tracklib-logo.png';
