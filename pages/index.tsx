@@ -6,6 +6,9 @@ import Section from 'components/Section';
 
 import NaTrave from 'components/projects/NaTrave';
 import ChaveNfe from 'components/projects/ChaveNfe';
+import BorderRadius from 'components/projects/BorderRadius';
+import CurrentWeather from 'components/projects/CurrentWeather';
+import ToDoList from 'components/projects/ToDoList';
 
 type HomeProps = {
   posts: Post[];
@@ -62,18 +65,54 @@ export default function Home({ projects }: HomeProps) {
               </Section>
             </li>
             <li>
-              Na Trave
+              Border radius generator
               <Section heading="2022">
                 <div className="flex flex-col gap-5">
                   <div className="flex flex-col gap-1">
                     <p className="text-secondary">
                       {' '}
-                      Esse projeto foi um bolão para a copa de 2022 no catar, onde havia login, ranking e placares para as partidas. Foi um projeto full stack,
-                      onde adorei demais o processo. Ferramentas utilizadas: react, prisma, KoaJS, Planetscale, tailwind e vite.
+                      Foi um projeto simples, porém desenvolvido em comunidade junto a devsoutinholabs, onde o desafio foi lançado com o protótipo e as soluções
+                      foram enviadas no repositório com a hashtag #devsoutinhochallange. O processo foi bem bacana, simples do ponto de vista técnico porém
+                      interessante pela participação da comunidade.
                     </p>
-                    <a href="https://pickem-worldcup.vercel.app/">
-                      <NaTrave />
+                    <a href="https://border-radius-previewer-vmc36.vercel.app/">
+                      <BorderRadius />
                     </a>
+                  </div>
+                </div>
+              </Section>
+            </li>
+            <li>
+              Current Weather
+              <Section heading="2022">
+                <div className="flex flex-col gap-5">
+                  <div className="flex flex-col gap-1">
+                    <p className="text-secondary">
+                      {' '}
+                      É uma aplicação que consome dados da API Climática (https://openweathermap.org/api) e exibe as informações baseadas na localização atual
+                      do usuário. Já existia a ideia de pegar a temperatura inserindo a cidade manualmente, então, fiz um upgrade utilizando o recurso de
+                      localização pelo browser e fazendo essa consulta de forma automática.
+                    </p>
+                    <a href="https://current-weather-api.vercel.app/">
+                      <CurrentWeather />
+                    </a>
+                  </div>
+                </div>
+              </Section>
+            </li>
+            <li>
+              To do List
+              <Section heading="2022">
+                <div className="flex flex-col gap-5">
+                  <div className="flex flex-col gap-1">
+                    <p className="text-secondary">
+                      {' '}
+                      Uma aplicação simples para atender uma necessidade pessoal de criar uma lista de coisas a se fazer de forma direta e prática. A sua task é
+                      criada e ao finalizar ela, pode se clicar para dizer que foi concluida ou exclui-la. Utiliza o localstorage do navegador para salvar as
+                      tarefas.
+                    </p>
+                    <a href="https://todolist-iota-sooty.vercel.app" />
+                    <ToDoList />
                   </div>
                 </div>
               </Section>
