@@ -7,6 +7,7 @@ import avatar from 'public/gallery/avatar.png';
 import cataratas from 'public/gallery/cataratas.jpg';
 import itaipu from 'public/gallery/itaipu.jpg';
 import pain from 'public/gallery/pain.jpeg';
+import cblol from 'public/gallery/cblol-final.jpg';
 import { ReactNode } from 'react';
 
 import Halo from './Halo';
@@ -117,8 +118,7 @@ export default function Gallery() {
         <Photo src={cataratas} meta="2021-07-12" alt="Vinicius e Alexia nas cataratas" width={314} height={229} rotate={-6} left={-86} index={1} />
         <Photo src={itaipu} meta="2017-07-04" alt="Vini e lexie em itaipu" width={180} height={240} rotate={6.3} left={198} index={2} flipDirection="left" />
         <Photo src={pain} meta="2021-05-20" alt="time da pain" width={270} height={225} rotate={-5.4} left={343} index={3} />
-
-        <Photo src={avatar} meta="2022-09-10" alt={'avatar'} width={190} height={253} rotate={7.6} left={587} index={4} flipDirection="left" />
+        <Photo src={cblol} meta="2022-09-10" alt="final cblol" width={190} height={253} rotate={7.6} left={587} index={4} flipDirection="left" />
       </section>
     </>
   );

@@ -71,8 +71,8 @@ const sideProjects = [
   },
 ];
 
-const seoTitle = 'About | Samuel Kraft';
-const seoDesc = 'A designer/frontend developer hybrid that loves to build great products with delightful interfaces.';
+const seoTitle = 'Sobre mim | Vinicius Modesto';
+const seoDesc = 'Desenvolvedor Front-end, Analista de Suporte';
 
 export default function About() {
   return (
@@ -83,8 +83,8 @@ export default function About() {
         openGraph={{
           title: seoTitle,
           description: seoDesc,
-          url: `https://samuelkraft.com/about/`,
-          site_name: 'Samuel Kraft',
+          url: `https://vinimodesto-dev.vercel.app/about/`,
+          site_name: 'Vinicius Modesto',
         }}
         twitter={{
           cardType: 'summary_large_image',
@@ -95,28 +95,34 @@ export default function About() {
           <Gallery />
         </div>
         <div className="-mb-8 sm:hidden animate-in">
-          <Image src={avatar} width={48} height={48} alt="avatar of Samuel Kraft" />
+          <Image src={avatar} width={48} height={48} alt="avatar of Vinicius Modesto" />
         </div>
         <div className="flex flex-col gap-16 animate-in sm:animate-none md:gap-24" style={{ '--index': 2 } as React.CSSProperties}>
-          <Section heading="About me" headingAlignment="right">
+          <Section heading="Sobre mim" headingAlignment="right">
             <div className="flex flex-col gap-6">
               <p>
-                <em className="font-semibold">Hi there!</em>&nbsp; I’m Samuel, a designer/frontend developer hybrid that loves to build great products with
-                delightful interfaces.
+                <em className="font-semibold">Olá</em>&nbsp; Me chamo Vinícius, tenho 27 anos e trabalho com T.I há 9 e atualmente atuo com desenvolvimento
+                Front End e Suporte.
               </p>
               <p>
-                Currently working at <Link href="https://bitrefill.com">Bitrefill</Link>, making living on crypto possible. Before that I worked at music
-                startup <Link href="https://tracklib.com">Tracklib</Link>, the record store for sampling.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi iusto quas illum impedit at asperiores consequatur perspiciatis expedita
+                repellendus, quidem nisi sapiente ex facilis dolor recusandae aspernatur. Aliquam, similique numquam!
               </p>
               <p>
-                I love working in the realm between design and code. Some things that makes me excited are CSS, Design Systems, Animation, crafting excellent
-                component apis and making interfaces feel fun and human.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse itaque, quaerat iure dolorum quas libero facilis culpa? Eaque magni repudiandae,
+                illum rem distinctio, iusto dolorem sapiente architecto officiis doloremque at.
               </p>
-              <p>I grew up in Nacka just outside of Stockholm, Sweden and come from a background of studying Photography.</p>
-              <p>Outside of work I’m obsessed with endurance sports and travelling with my family.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In distinctio nihil nam! Nihil sed soluta ipsum atque magni fuga eum unde. Voluptas
+                sunt, nesciunt corporis quidem ad dolores incidunt molestiae.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dignissimos suscipit dicta nulla ut magnam dolorem, cupiditate voluptate
+                asperiores sed tenetur facilis eum reiciendis, explicabo dolore ab debitis autem ullam.
+              </p>
             </div>
           </Section>
-          <Section heading="Connect" headingAlignment="right">
+          <Section heading="Contato" headingAlignment="right">
             <ul className="flex gap-6 animated-list">
               {connectLinks.map((link) => (
                 <li className="transition-opacity" key={link.label}>
@@ -125,18 +131,21 @@ export default function About() {
               ))}
             </ul>
           </Section>
-          <Section heading="Work" headingAlignment="right">
+          <Section heading="Trabalho" headingAlignment="right">
             <div className="flex flex-col w-full gap-8">
-              <p>{new Date().getFullYear() - 2013}+ years of experience working in both design & engineering.</p>
+              <p>
+                + de {new Date().getFullYear() - 2014} anos de experiência atuando com tecnologia, entre Hardware, atendimento ao cliente, suporte e
+                desenvolvimento front-end
+              </p>
               <Workplaces items={workplaces} />
             </div>
           </Section>
-          <Section heading="Side projects" headingAlignment="right">
+          {/* <Section heading="Side projects" headingAlignment="right">
             <div className="flex flex-col w-full gap-8">
               <p>I enjoy hacking on the side.</p>
               <Workplaces items={sideProjects} />
             </div>
-          </Section>
+          </Section> */}
         </div>
       </div>
     </>
