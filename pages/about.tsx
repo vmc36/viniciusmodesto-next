@@ -6,12 +6,8 @@ import Section from 'components/Section';
 import Workplaces from 'components/Workplaces';
 import Gallery from 'components/Gallery';
 
-import bitrefillLogo from 'public/projects/bitrefill-logo.png';
-import tracklibLogo from 'public/projects/tracklib-logo.png';
-import styleroomLogo from 'public/projects/styleroom-logo.png';
-import trailroutesLogo from 'public/projects/trailroutes-logo.png';
-import notionLogo from 'public/projects/notion-logo.png';
-import strengthLogo from 'public/projects/strength-logo.png';
+import siacomLogo from 'public/projects/siacom-logo.png';
+import tjprLogo from 'public/projects/tjpr-logo.png';
 import avatar from 'public/avatar.png';
 
 export const connectLinks = [
@@ -22,52 +18,32 @@ export const connectLinks = [
 
 const workplaces = [
   {
-    title: 'Sia.Com',
-    description: 'Front-end Developer',
-    time: '2021 - Now',
-    imageSrc: bitrefillLogo,
-    link: 'https://bitrefill.com',
-  },
-  {
     title: 'Frontend Developer',
-    description: 'Tracklib',
-    time: '2016 - 2021',
-    imageSrc: tracklibLogo,
-    link: 'https://tracklib.com',
+    description: 'Sia.Com',
+    time: '2021 - Now',
+    imageSrc: siacomLogo,
+    link: 'http://siacominformatica.com.br/',
   },
   {
-    title: 'Design Engineer',
-    description: 'Styleroom',
-    time: '2013 - 2016',
-    imageSrc: styleroomLogo,
-    link: 'https://styleroom.se/app',
-  },
-];
-
-const sideProjects = [
-  {
-    title: 'Trail Routes',
-    description: 'Mapping platform built with react, mapbox, swiftUI',
-    imageSrc: trailroutesLogo,
-    link: 'https://github.com/samuelkraft/routes',
+    title: 'Analista de Suporte',
+    description: 'Sia.Com',
+    time: '2020 - Now',
+    imageSrc: siacomLogo,
+    link: 'http://siacominformatica.com.br/',
   },
   {
-    title: 'notion-blog-nextjs',
-    description: 'Next.js starter repo with a blog powered by Notion',
-    imageSrc: notionLogo,
-    link: 'https://github.com/samuelkraft/notion-blog-nextjs',
+    title: 'Técnico em Informática',
+    description: 'Sia.Com',
+    time: '2019 - 2020',
+    imageSrc: siacomLogo,
+    link: 'http://siacominformatica.com.br/',
   },
   {
-    title: 'Strength',
-    description: 'iOS & WatchOS strength tracking app',
-    imageSrc: strengthLogo,
-    link: 'https://samuelkraft.github.io/strength/',
-  },
-  {
-    title: 'samuelkraft-next',
-    description: 'The website you are looking at!',
-    imageSrc: avatar,
-    link: 'https://github.com/samuelkraft/samuelkraft-next',
+    title: 'Estágio no Nucleo de informática',
+    description: 'Tribunal de Justiça do Estado do Paraná',
+    time: '2017 - 2018',
+    imageSrc: tjprLogo,
+    link: 'https://www.tjpr.jus.br/',
   },
 ];
 
@@ -105,20 +81,17 @@ export default function About() {
                 Front End e Suporte.
               </p>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi iusto quas illum impedit at asperiores consequatur perspiciatis expedita
-                repellendus, quidem nisi sapiente ex facilis dolor recusandae aspernatur. Aliquam, similique numquam!
+                Comecei na carreira de T.I em 2014, ingressando na faculdade de Sistemas de Informação pela Universidade Paranaense - Unipar, em Umuarama - PR,
+                onde me formei 4 anos depois.
+              </p>
+              <p>Já atuei como técnico de informática, atualmente atuo como analista de suporte e desenvolvedor Front-end.</p>
+              <p>
+                Minha grande paixão é trabalhar com tecnologia, criando e entendendo como as coisas funcionam, compartilhando ideias e aprendendo com pessoas.
+                Possuo um background desde como funciona um computador a como gerenciar o armazenamento de dados de uma aplicação em um navegador.
               </p>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse itaque, quaerat iure dolorum quas libero facilis culpa? Eaque magni repudiandae,
-                illum rem distinctio, iusto dolorem sapiente architecto officiis doloremque at.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In distinctio nihil nam! Nihil sed soluta ipsum atque magni fuga eum unde. Voluptas
-                sunt, nesciunt corporis quidem ad dolores incidunt molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dignissimos suscipit dicta nulla ut magnam dolorem, cupiditate voluptate
-                asperiores sed tenetur facilis eum reiciendis, explicabo dolore ab debitis autem ullam.
+                Fui criado no Paraná, mas atualmente moro em Recife-PE. Casado com a Aléxia, gosto de viajar e como hobby gosto de jogar League of Legends ou
+                assistir esportes. Meus times favoritos são: Arsenal (Premiere League), Santos (Brasil), New England Patrios (NFL) e Cleveland Cavaliers (NBA).
               </p>
             </div>
           </Section>
@@ -140,12 +113,6 @@ export default function About() {
               <Workplaces items={workplaces} />
             </div>
           </Section>
-          {/* <Section heading="Side projects" headingAlignment="right">
-            <div className="flex flex-col w-full gap-8">
-              <p>I enjoy hacking on the side.</p>
-              <Workplaces items={sideProjects} />
-            </div>
-          </Section> */}
         </div>
       </div>
     </>
