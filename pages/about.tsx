@@ -39,7 +39,7 @@ const workplaces = [
     link: 'http://siacominformatica.com.br/',
   },
   {
-    title: 'Estágio no Nucleo de informática',
+    title: 'Estágio - Núcleo de informática',
     description: 'Tribunal de Justiça do Estado do Paraná',
     time: '2017 - 2018',
     imageSrc: tjprLogo,
