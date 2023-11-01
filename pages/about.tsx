@@ -12,7 +12,7 @@ import avatar from 'public/avatar.png';
 
 export const connectLinks = [
   { label: 'Email', href: 'mailto:viniciusmodesto.dev@gmail.com' },
-  { label: 'Twitter', href: 'https://twitter.com/vmc___' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/vinicius-modesto96/' },
   { label: 'GitHub', href: 'https://github.com/vmc36' },
 ];
 

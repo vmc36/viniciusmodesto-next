@@ -39,7 +39,7 @@ export default function Home({ projects }: HomeProps) {
                       Esse projeto foi um bolão para a copa de 2022 no catar, onde havia login, ranking e placares para as partidas. Foi um projeto full stack,
                       onde adorei demais o processo. Ferramentas utilizadas: react, prisma, KoaJS, Planetscale, tailwind e vite.
                     </p>
-                    <a href="https://pickem-worldcup.vercel.app/">
+                    <a href="https://pickem-worldcup.vercel.app/" target="_blank">
                       <NaTrave />
                     </a>
                   </div>
@@ -57,7 +57,7 @@ export default function Home({ projects }: HomeProps) {
                       empresa emissora via API. Esse foi um projeto onde eu como trabalhei como analista de suporte, pude unir a necessidade de conseguir uma
                       informação fiscal de maneira mais fácil a partir da chave da nota.
                     </p>
-                    <a href="https://chavenfe.vercel.app/">
+                    <a href="https://chavenfe.vercel.app/" target="_blank">
                       <ChaveNfe />
                     </a>
                   </div>
@@ -75,7 +75,7 @@ export default function Home({ projects }: HomeProps) {
                       foram enviadas no repositório com a hashtag #devsoutinhochallange. O processo foi bem bacana, simples do ponto de vista técnico porém
                       interessante pela participação da comunidade.
                     </p>
-                    <a href="https://border-radius-previewer-vmc36.vercel.app/">
+                    <a href="https://border-radius-previewer-vmc36.vercel.app/" target="_blank">
                       <BorderRadius />
                     </a>
                   </div>
@@ -93,7 +93,7 @@ export default function Home({ projects }: HomeProps) {
                       do usuário. Já existia a ideia de pegar a temperatura inserindo a cidade manualmente, então, fiz um upgrade utilizando o recurso de
                       localização pelo browser e fazendo essa consulta de forma automática.
                     </p>
-                    <a href="https://current-weather-api.vercel.app/">
+                    <a href="https://current-weather-api.vercel.app/" target="_blank">
                       <CurrentWeather />
                     </a>
                   </div>
@@ -111,8 +111,9 @@ export default function Home({ projects }: HomeProps) {
                       criada e ao finalizar ela, pode se clicar para dizer que foi concluida ou exclui-la. Utiliza o localstorage do navegador para salvar as
                       tarefas.
                     </p>
-                    <a href="https://todolist-iota-sooty.vercel.app" />
-                    <ToDoList />
+                    <a href="https://todolist-iota-sooty.vercel.app" target="_blank">
+                      <ToDoList />
+                    </a>
                   </div>
                 </div>
               </Section>
