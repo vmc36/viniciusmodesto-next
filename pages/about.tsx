@@ -86,12 +86,14 @@ export default function About() {
               </p>
               <p>Já atuei como técnico de informática, atualmente atuo como analista de suporte e desenvolvedor Front-end.</p>
               <p>
-                Minha grande paixão é trabalhar com tecnologia, criando e entendendo como as coisas funcionam, compartilhando ideias e aprendendo com pessoas.
-                Possuo um background desde como funciona um computador a como gerenciar o armazenamento de dados de uma aplicação em um navegador.
+                Minha grande paixão é trabalhar com tecnologia, criando e entendendo como as coisas funcionam, compartilhando ideias e aprendendo com as pessoas
+                que tenho a oportunidade de conhecer na jornada. Possuo um background desde como funciona um computador a como gerenciar o armazenamento de
+                dados de uma aplicação em um navegador.
               </p>
               <p>
-                Fui criado no Paraná, mas atualmente moro em Recife-PE. Casado com a Aléxia, gosto de viajar e como hobby gosto de jogar League of Legends ou
-                assistir esportes. Meus times favoritos são: Arsenal (Premiere League), Santos (Brasil), New England Patrios (NFL) e Cleveland Cavaliers (NBA).
+                Fui criado no Paraná, mas atualmente moro em Recife-PE. Casado com a Aléxia, adoro viajar e como hobby gosto de jogar games como League of
+                Legends, fortnite ou assistir esportes. Meus times favoritos são: Arsenal (Premier League), Santos (Brasil), New England Patriots (NFL) e
+                Cleveland Cavaliers (NBA).
               </p>
             </div>
           </Section>
@@ -108,7 +110,7 @@ export default function About() {
             <div className="flex flex-col w-full gap-8">
               <p>
                 + de {new Date().getFullYear() - 2014} anos de experiência atuando com tecnologia, entre Hardware, atendimento ao cliente, suporte e
-                desenvolvimento front-end
+                Desenvolvimento front-end.
               </p>
               <Workplaces items={workplaces} />
             </div>
