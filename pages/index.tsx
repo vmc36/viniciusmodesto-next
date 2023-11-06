@@ -16,9 +16,9 @@ type HomeProps = {
 };
 
 export default function Home({ projects }: HomeProps) {
-  <Analytics />;
   return (
     <>
+      <Analytics />;
       <div className="flex flex-col gap-20 md:gap-28">
         <div>
           <h1 className="animate-in">Vinicius Modesto</h1>
