@@ -1,7 +1,7 @@
 import { GetStaticProps } from 'next';
 import { allPosts, allProjects, Post, Project } from '.contentlayer/generated';
 import { pick } from '@contentlayer/client';
-
+import { Analytics } from '@vercel/analytics/react';
 import Section from 'components/Section';
 
 import NaTrave from 'components/projects/NaTrave';
@@ -16,6 +16,7 @@ type HomeProps = {
 };
 
 export default function Home({ projects }: HomeProps) {
+  <Analytics />;
   return (
     <>
       <div className="flex flex-col gap-20 md:gap-28">
