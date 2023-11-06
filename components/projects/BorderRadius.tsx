@@ -14,7 +14,7 @@ export default function BorderRadius() {
   const { resolvedTheme } = useTheme();
 
   return (
-    <div className="h-[290px] bg-[#001413] rounded-xl relative overflow-hidden vmc:h-[210px]" ref={ref}>
+    <div className="h-[290px] bg-[#001413] rounded-3xl relative overflow-hidden vmc:h-[210px]" ref={ref}>
       <Halo strength={resolvedTheme === 'light' ? 10 : 4}>
         <motion.div className="w-[300px] absolute right-4 z-10 -bottom-10" style={{ y }}></motion.div>
         <Image width={504} height={282} src="/projects/radius/home.png" alt="Projeto Border Radius Generator" className="rounded-[26px]" />

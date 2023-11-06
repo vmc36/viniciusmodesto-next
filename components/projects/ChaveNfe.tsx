@@ -14,7 +14,7 @@ export default function ChaveNfe() {
   const { resolvedTheme } = useTheme();
 
   return (
-    <div className="h-[340px] bg-[#001413] rounded-xl relative overflow-hidden vmc:h-[258px]" ref={ref}>
+    <div className="h-[340px] bg-[#001413] rounded-3xl relative overflow-hidden vmc:h-[258px]" ref={ref}>
       <Halo strength={resolvedTheme === 'light' ? 10 : 4}>
         <motion.div className="w-72 absolute right-4 z-10 -bottom-10" style={{ y }}></motion.div>
         <Image width={504} height={282} src="/projects/chavenfe/home.png" alt="Projeto chave" className="rounded-[26px] mb-5" />
