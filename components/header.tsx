@@ -6,7 +6,7 @@ import ThemeSwitcher from './ThemeSwitcher';
 
 const links = [
   { label: 'Home', href: '/' },
-  { label: 'About', href: '/about' },
+  { label: 'Sobre Mim', href: '/about' },
 ];
 
 export default function Header() {
